@@ -1,0 +1,80 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: rgb(246, 251, 252);
+}
+
+
+#GMS-office {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 5px solid red; */
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.home {
+    width: 100%;
+    /* border: 1px green solid; */
+    text-align: justify;
+    padding: 12px;
+    margin: 0;
+    color: #333399;
+}
+.notice{
+    /* border: 1px solid pink; */
+    background-color: rgb(235, 241, 241);
+}
+.notice h3{
+    background-color: #34495E;
+    color: white;
+}
+.notice ul{
+    margin: 18px;
+    text-align: justify;
+}
+hr{
+    height: 4px;
+    border-width: 2;
+    background-color: black;
+    color: gray;
+}
+p, span{
+    font-size: 17px;
+}
+h1, h4{
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.service{
+    text-align: justify;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.services, .job img {
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.services, .school img {
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.services, .shadi1 img {
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.services, .mohyalashram img {
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.service p{
+    color: #34495E;
+}
